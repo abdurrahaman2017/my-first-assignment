@@ -364,3 +364,86 @@
 }
 
 /* recent section code end here */
+
+
+/* donate section code start here */
+
+.donate-section{
+    margin: 20px 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate-container-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.donate-container-description{
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 0px 15px 15px 15px;
+    text-align: center;
+}
+
+.amount-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.single-ammount-container > h3{
+    border: 1px solid lightgray;
+    padding:20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: lightgray;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.single-ammount-container > h3:hover{
+    background-color: green;
+    color: aliceblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.select-ammount > h3{
+    background-color: lightseagreen;
+}
+
+.other-ammount{
+    display:block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400px;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    border:none;
+}
+
+.donate-btn-done{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.donate-btn-done-container{
+    text-align: center;
+}
+
+.donate-btn-done:hover{
+    background-color: red;
+    transition: 0.5s;
+    border: none;
+}
+
+/* donate section code end here */
