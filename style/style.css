@@ -506,3 +506,45 @@
 }
 
 /* subcribe section code end here */
+
+
+/* footer section code start here */
+
+.footer-section{
+    background-color:rgb(228, 232, 236);
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px;
+}
+
+.footer-title > h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer-icon > a{
+    margin-right: 15px;
+}
+
+.author{
+    color: gray;
+}
+.span1{
+    color: black;
+    font-size: 30px;
+}
+
+.span2{
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+/* footer section code end here */
