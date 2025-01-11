@@ -205,3 +205,51 @@
 }
 
 /* bd future code end here */
+
+
+/* dr muhammad yunus code start here */
+.dr-yunus{
+    margin: 30px 200px;
+    background-color:rgb(245, 240, 240);
+    padding: 30px 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.dr-yunus > img{
+    position: absolute;
+    width:54px;
+    height: 54px;
+    top:20px;
+}
+
+.dr-yunus-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.dr-yunus-container-discription{
+    padding-top: 20px;
+}
+
+.dr-yunus-container-discription > p > q{
+    font-size: 18px;
+    font-weight: 400px;
+    color:#746e63;
+    
+}
+
+.dr-yunus-container-identity > h4{
+    font-size: 20px;
+    font-weight:600px;
+    margin-bottom: 7px;
+}
+
+.dr-yunus-container-identity > p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #746e63;
+}
+
+/* dr muhammad yunus code end here */
