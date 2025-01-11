@@ -45,3 +45,49 @@
 }
 
 /* nav bar code end here */
+
+/* hero area code start here */
+
+.hero-area-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:50px 200px;
+    gap: 50px;
+
+    background-color:#C6E4D6;
+    padding: 40px 60px 50px 60px;
+    border-radius: 10px;
+}
+
+.hero-area-content > p{
+    font-size: 24px;
+    color: gray;
+    font-weight:500px;
+}
+
+.hero-area-content > h1{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.hero-area-content > button{
+    padding: 17px 34px;
+    background-color:#006A50;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight:600px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+.hero-area-content > button:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* hero area code end here */
