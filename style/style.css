@@ -130,3 +130,78 @@
 }
 
 /* bangaldesh 2.0 section code end here */
+
+
+/* bd future section code start here */
+
+.bd-future-title{
+    margin: 100px 200px 30px 200px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.bd-future-description{
+    margin: 0px 200px;
+    font-size: 16px;
+}
+.bd-future-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    gap: 50px;
+}
+
+.bd-future-single-container{
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+.bd-future-single-container-title{
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bd-future-single-container-description{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.bd-future-single-container-btn{
+    border: 2px solid #5490F5;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+
+.future-container-1{
+    background-color:#94b5eef5;
+}
+.future-container-2{
+    background-color: #C6E4D6;
+}
+.future-container-3{
+    background-color:#F7EBCF;
+}
+.future-btn-1{
+    background-color:#5490F5;
+    border: none;
+}
+.future-btn-2{
+    background-color:#09A15C;
+    border: none;
+}
+.future-btn-3{
+    background-color:#FFC239;
+    border: none;
+}
+
+.bd-future-single-container-btn:hover{
+    border: none;
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* bd future code end here */
