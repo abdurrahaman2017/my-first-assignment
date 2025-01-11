@@ -300,3 +300,67 @@
 }
 
 /* question section code end here */
+
+
+/* recent news section code start here */
+.recent-news{
+    margin: 100px 200px;
+}
+
+.recent-news-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.recent-news-description{
+    font-size: 16px;
+    font-weight: 400px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.recent-news-container{
+    display: flex;
+    gap: 40px;
+    background-color: rgb(228, 232, 236);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.recent-news-container-img > img{
+    border-radius: 10px;
+}
+
+.recent-news-container-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.time{
+    margin: 10px 0px;
+}
+
+.recent-news-btn{
+    border: 2px solid black;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+    padding: 7px 10px;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.recent-news-btn:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* recent section code end here */
