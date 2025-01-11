@@ -91,3 +91,42 @@
 }
 
 /* hero area code end here */
+
+/* bangladesh 2.0 section code start here */
+
+.bd-section > h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 100px 200px 30px 200px;
+}
+
+.bd-section-container{
+    display: flex;
+    margin: 50px 200px;
+    gap: 50px;
+}
+
+.bd-section-single-contaier:hover{
+    background-color:aliceblue;
+    transition: 0.5s;
+}
+
+.bd-section-single-contaier{
+    background-color: rgb(231, 231, 231);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.bd-section-single-contaier-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.bd-section-single-contaier-description{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400px;
+}
+
+/* bangaldesh 2.0 section code end here */
