@@ -253,3 +253,50 @@
 }
 
 /* dr muhammad yunus code end here */
+
+/* question section code start here */
+.opinion{
+    margin: 50px 200px;
+}
+.opinion > h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.question-container{
+    background-color: rgb(230, 227, 227);
+    padding:40px;
+    border-radius: 10px;
+}
+
+.question-container table, th, td{
+    border: 2px solid gray;
+    border-collapse: collapse;
+    padding:10px 20px;
+    width: 100%;
+}
+
+.question-container th{
+    background-color:#C6E4D6;
+    font-size: 20px;
+    font-weight: 600px;
+    text-align: left;
+    border: none;
+}
+
+.question-container td{
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+.border-option{
+    padding: 12px;
+    background-color:#C6E4D6;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* question section code end here */
